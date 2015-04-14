@@ -2,9 +2,9 @@
 
 Heap implementation ported from Golang to JavaScript packaged for npm.
 
-Original code available at [http://golang.org/src/container/heap/heap.go]().
+Original code available at [http://golang.org/src/container/heap/heap.go](http://golang.org/src/container/heap/heap.go).
 
-API documentation is at [http://golang.org/pkg/container/heap/]().
+API documentation is at [http://golang.org/pkg/container/heap/](http://golang.org/pkg/container/heap/).
 
 Differences of ported code from original:
 - syntax changed from Go to JavaScript;
@@ -14,12 +14,12 @@ Differences of ported code from original:
 
 This code retains copyright restrictions of the original code.
 
-Original code is governed by BSD license (see [http://golang.org/LICENSE](),
+Original code is governed by BSD license (see [http://golang.org/LICENSE](http://golang.org/LICENSE),
 also can be found in the LICENSE file in the project's directory).
 
 ## Motivation
 
-With abundance of heap and priority queue implementations on the [www.npmjs.com]()
+With abundance of heap and priority queue implementations on the [www.npmjs.com](www.npmjs.com)
 I didn't find any library wich can be used with arbitrary underlying collection
 without copying all elements to the heap's internal fields.
 
@@ -76,9 +76,9 @@ access only to several localStorage's items during access to the one cache eleme
 		x.should.be.equal(i);
 	}
 
-- See tests at [https://github.com/letsrock-today/heapjs/blob/master/test/heap.js]().
-- See comments to source code at [https://github.com/letsrock-today/heapjs/blob/master/src/heap.js]().
-- See API documentation of original code at [http://golang.org/pkg/container/heap/]().
+- See tests at [https://github.com/letsrock-today/heapjs/blob/master/test/heap.js](https://github.com/letsrock-today/heapjs/blob/master/test/heap.js).
+- See comments to source code at [https://github.com/letsrock-today/heapjs/blob/master/src/heap.js](https://github.com/letsrock-today/heapjs/blob/master/src/heap.js).
+- See API documentation of original code at [http://golang.org/pkg/container/heap/](http://golang.org/pkg/container/heap/).
 
 ## Tests
 
