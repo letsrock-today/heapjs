@@ -1,6 +1,6 @@
 {
   "name": "heapjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Heap implementation ported from Golang to JavaScript packaged for npm",
   "main": "lib/heap.js",
   "scripts": {
