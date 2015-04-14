@@ -1,0 +1,39 @@
+{
+  "name": "heapjs",
+  "version": "1.0.0",
+  "description": "Heap implementation ported from Golang to JavaScript packaged for npm",
+  "main": "lib/heap.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/letsrock-today/heapjs.git"
+  },
+  "keywords": [
+    "heap",
+    "collection",
+    "container",
+    "golang",
+    "algorithm",
+    "priority",
+    "queue"
+  ],
+  "author": "Nikolay Turpitko",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/letsrock-today/heapjs/issues"
+  },
+  "homepage": "https://github.com/letsrock-today/heapjs",
+  "devDependencies": {
+    "babel": "^5.0.9",
+    "babel-core": "^5.1.8",
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "core-js": "^0.8.3"
+  }
+}
