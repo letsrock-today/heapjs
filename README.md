@@ -39,7 +39,7 @@ access only to several localStorage's items during access to the one cache eleme
 
 ## Installation
 
-    npm i -g heapjs
+    npm install heapjs --save
 
 ## Usage
 
