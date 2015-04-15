@@ -19,7 +19,7 @@ also can be found in the LICENSE file in the project's directory).
 
 ## Motivation
 
-With abundance of heap and priority queue implementations on the [www.npmjs.com](www.npmjs.com)
+With abundance of heap and priority queue implementations on the [www.npmjs.com](http://www.npmjs.com)
 I didn't find any library wich can be used with arbitrary underlying collection
 without copying all elements to the heap's internal fields.
 
